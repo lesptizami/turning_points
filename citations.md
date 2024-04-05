@@ -1,8 +1,8 @@
 Cite turning_points as:
 Charles Fosseprez (2024) turning_points [Source code].
-https://gitlab.com/...
-Package author note:
-"""Package to find turning points
-"""
-author = "Charles Fosseprez"
-email = "charles.fosseprez.me@gmail.com"
+https://github.com/lesptizami/turning_points  
+Package author note:  
+"""Package to find turning points in trajectories
+"""  
+author = "Charles Fosseprez"  
+email = "charles.fosseprez.me@gmail.com"  

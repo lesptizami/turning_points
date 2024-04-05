@@ -62,8 +62,7 @@ If you use this package for your publication, don't hesitate to cite it.
 example provided in citations.md
 
 
-RDP
-===
+## thanks for the RDP algorythm
 
-The Ramer–Douglas–Peucker algorithm roughly ported from the pseudo-code provided
-by http://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm
+The package use the [Ramer–Douglas–Peucker](http://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm) algorithm.
+It was obtained from: https://github.com/fhirschmann/rdp

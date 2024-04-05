@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='turning_point_analyzer',
-    version='1.0.0',
+    version='0.0.4',
     packages=find_packages(),
     install_requires=[
         'numpy',
@@ -10,14 +10,15 @@ setup(
         'matplotlib',
     ],
     author='Your Name',
-    author_email='charles.fosseprez@gmail.com',
+    author_email='charles.fosseprez.me@gmail.com',
     description='Analyze turning points in trajectories and calculate transition probabilities',
-    url='https://github.com/yourusername/turning_point_analyzer',
+    url='https://github.com/lesptizami/turning_points',
     python_requires='>=3.6',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    keywords='trajectory-analysis turning-points transition-probabilities data-science',
+    package_dir={'': 'src'},
+
 )

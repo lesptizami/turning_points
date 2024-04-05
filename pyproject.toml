@@ -1,0 +1,46 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+[project]
+name = "turning_points"
+version = "0.0.4"
+authors = [
+  { name="Charles Fosseprez", email="charles.fosseprez.me@gmail.com" },
+]
+description = "A package to find turing points in tracks, andd plot"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "colorama==0.4.6",
+  "contourpy==1.2.1",
+  "cycler==0.12.1",
+  "exceptiongroup==1.2.0",
+  "fonttools==4.50.0",
+  "importlib_resources==6.4.0",
+  "iniconfig==2.0.0",
+  "kiwisolver==1.4.5",
+  "matplotlib==3.8.4",
+  "numpy==1.26.4",
+  "packaging==24.0",
+  "pillow==10.3.0",
+  "pluggy==1.4.0",
+  "pyparsing==3.1.2",
+  "pytest==8.1.1",
+  "python-dateutil==2.9.0.post0",
+  "scipy==1.13.0",
+  "six==1.16.0",
+  "tomli==2.0.1",
+  "zipp==3.18.1"
+]
+license = {text = "MIT License"}
+keywords=['trajectory-analysis', 'turning-points', 'transition-probabilities', 'data-science']
+
+[project.urls]
+Homepage = "https://github.com/lesptizami/turning_points"
+Issues = "https://github.com/lesptizami/turning_points/issues"
+

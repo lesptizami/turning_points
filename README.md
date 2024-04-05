@@ -6,7 +6,7 @@ The Turning Point Analyzer is a Python package for analyzing turning points in t
 ## Installation
 You can install the Turning Point Analyzer package using pip:
 ```bash
-pip install turning_point_analyzer
+pip install turning_points
 ```
 
 ## Usage
